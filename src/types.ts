@@ -2,8 +2,13 @@ export interface SlackAlertConfig {
   webhookUrl: string;
   appName: string; // "FN Compass" | "STDocs" | "FN Forge"
   environment: string; // "production" | "development" | "staging"
-  enabled?: boolean; // default: true if webhookUrl set
+  enabled?: boolean; // default: true if webhookUrl or botToken set
   rateLimitMs?: number; // default: 1000
+  botToken?: string; // xoxb- Bot Token for dynamic channel routing
+}
+
+export interface SlackSendOptions {
+  channel?: string; // Channel ID or name — requires botToken to be set
 }
 
 export interface SlackEvent {

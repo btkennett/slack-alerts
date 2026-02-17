@@ -4,6 +4,10 @@ export interface SlackAlertConfig {
     environment: string;
     enabled?: boolean;
     rateLimitMs?: number;
+    botToken?: string;
+}
+export interface SlackSendOptions {
+    channel?: string;
 }
 export interface SlackEvent {
     severity: "info" | "warning" | "critical" | "success";
