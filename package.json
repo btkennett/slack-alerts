@@ -1,5 +1,5 @@
 {
-  "name": "@foundry-north/slack-alerts",
+  "name": "@foundrynorth/slack-alerts",
   "version": "1.0.0",
   "description": "Shared Slack alert client for Foundry North platforms",
   "main": "dist/index.js",
@@ -11,6 +11,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/node": "^25.2.1",
     "typescript": "^5.5.0"
