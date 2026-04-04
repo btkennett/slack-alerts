@@ -1,6 +1,6 @@
-import { SlackAlertConfig, SlackEvent, SlackSendOptions } from "./types";
-import { formatSlackMessage } from "./formatter";
-import { RateLimiter } from "./rate-limiter";
+import { SlackAlertConfig, SlackEvent, SlackSendOptions } from "./types.js";
+import { formatSlackMessage } from "./formatter.js";
+import { RateLimiter } from "./rate-limiter.js";
 
 export class SlackAlertsClient {
   private config: SlackAlertConfig;

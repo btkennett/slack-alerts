@@ -1,4 +1,4 @@
-import { SlackEvent, SlackAlertConfig, SEVERITY_MAP } from "./types";
+import { SlackEvent, SlackAlertConfig, SEVERITY_MAP } from "./types.js";
 
 /**
  * Build a Slack Block Kit message payload for an event.
