@@ -27,6 +27,7 @@ Requires `SLACK_WEBHOOK_URL` environment variable.
 
 - **fn-legacy** (Compass)
 - **fn-flux** (Compass Ops)
+- **fn-forge** (Compass Creative)
 
 ## Full Documentation
 

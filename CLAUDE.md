@@ -2,7 +2,7 @@
 
 ## Package Info
 - **npm**: `@foundrynorth/slack-alerts@1.1.0` (public)
-- **Consumers**: fn-legacy, fn-flux
+- **Consumers**: fn-legacy, fn-flux, fn-forge
 - **Module**: ESM (`"type": "module"`)
 
 ## API
@@ -34,6 +34,7 @@ SlackAlertConfig {
 ## Commands
 ```bash
 npm run build          # Compile TypeScript (tsc)
+npm test               # Run tests (Vitest)
 npm version patch      # Bump version
 npm publish            # Publish to npm (runs build via prepublishOnly)
 ```
